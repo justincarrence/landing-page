@@ -158,8 +158,31 @@ h1{
     margin-right: 500px;
     margin-top: 100px;
     margin-bottom: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     display: flex;
+    justify-content:space-around;
+    align-items: center;
+    border-radius: 10px;
     background-color: #3882F6;
+}
+
+.content-four-placeholder{
+    color: #F9FAF8;
+}
+
+.call-to-action{
+    font-weight: bold;
+}
+
+.content-four > button{
+    background: none;
+    color: #F9FAF8;
+    border: white solid 1px;
+    border-radius: 5px;
+    padding: 6px;
+    padding-left: 18px;
+    padding-right: 18px;
 }
 
 footer{
